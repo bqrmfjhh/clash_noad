@@ -1,407 +1,141 @@
 proxies:
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43, server: gzcm.rokishi.cyou, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 7919449b-6d6c-4a21-9b8a-8725090dbd5d}
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32, server: jmcm.rokishi.cyou, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: 7919449b-6d6c-4a21-9b8a-8725090dbd5d}
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1, server: jmcm.rokishi.cyou, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 7919449b-6d6c-4a21-9b8a-8725090dbd5d}
-  - {name: 高速稳定节点购买:https://c1n.cn/gxvip, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9, server: gzcm.rokishi.cyou, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 7919449b-6d6c-4a21-9b8a-8725090dbd5d}
-  - {name: 【小汐搬运12】13W+用户覆盖，节点名称广告转化, server: us-02-api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: us-02-api.mjj-home.com, skip-cert-verify: false}
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45, server: cu-cs.okvpn.xyz, port: 30020, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 【小汐搬运15】13W+用户覆盖，节点名称广告转化, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: false}
-  - {name: 🇺🇲 _US_美国, server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 _US_美国 2, server: 38.75.136.102, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇲 美国[感谢订阅——科技网络]", server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _NO_挪威, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2, server: gzcm.rokishi.cyou, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 7919449b-6d6c-4a21-9b8a-8725090dbd5d}
-  - {name: 🇺🇲 _US_美国 3, server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _BV_布维岛, server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 _US_美国 4, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 _US_美国 5, server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 _US_美国 6, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "🇺🇲 美国[感谢订阅——科技网络] 2", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _BV_布维岛 2, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 _US_美国 7, server: 38.75.136.102, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
-  - {name: 🇺🇲 _US_美国 8, server: 38.68.135.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇪🇸 _ES_西班牙, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 _US_美国 9, server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇪🇸 _ES_西班牙 2, server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 _US_美国 10, server: 38.68.135.93, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 _US_美国 11, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 _US_美国 12, server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 _US_美国 13, server: 38.114.114.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _NO_挪威 2, server: 46.29.218.170, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Jsnzk&mffxz节点_679, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Jsnzk&mffxz节点_676, server: 172.105.244.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 _US_美国 14, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: 🇺🇲 _US_美国 15, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: Jsnzk&mffxz节点_698, server: 172.105.244.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 _US_美国 16, server: 167.88.63.89, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 _US_美国 17, server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇷🇺 RU_659, server: 194.135.32.208, port: 32551, type: vmess, uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /W9s28k1i/, ws-headers: {Host: 194.135.32.208}}
-  - {name: Jsnzk&mffxz节点_678, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 高速稳定节点购买:https://v1.mk/vip, server: kr2.futi.online, port: 2053, type: vmess, uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: 🇺🇲 _US_美国 18, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: 🇪🇸 _ES_西班牙 3, server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47, server: jmcm.rokishi.cyou, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 7919449b-6d6c-4a21-9b8a-8725090dbd5d}
-  - {name: 🇺🇲 _US_美国 19, server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 _US_美国 20, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: Jsnzk&mffxz节点_716, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 WeVPN US 🇺🇸 Los Angeles, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 🇺🇲 _US_美国 21, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: 🇺🇲 _US_美国 22, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x, server: mf-aws-jp-04.xncloud.xyz, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-04.xncloud.xyz}}
+  - {name: 高速节点购买:https://c1n.cn/vip, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x, server: mf-aws-sg-02.xncloud.xyz, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-02.xncloud.xyz}}
+  - {name: 高速节点购买:https://c1n.cn/vip 2, server: inapus.mooncloud.bike, port: 443, type: vmess, uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
+  - {name: 高速节点购买:https://c1n.cn/vip 3, server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 高速节点购买:https://c1n.cn/vip 4, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 高速节点购买:https://c1n.cn/vip 5, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 146.56.177.34}}
+  - {name: 高速节点购买:https://c1n.cn/vip 6, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
+  - {name: 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-08.xncloud.xyz}}
+  - {name: 高速节点购买:https://c1n.cn/vip 7, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: 高速节点购买:https://c1n.cn/vip 8, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: 高速节点购买:https://c1n.cn/vip 9, server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x, server: mf-aws-sg-10.xncloud.xyz, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-10.xncloud.xyz}}
+  - {name: 高速节点购买:https://c1n.cn/vip 10, server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
+  - {name: 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x, server: mf-aws-jp-08.xncloud.xyz, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-08.xncloud.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1
-      - 高速稳定节点购买:https://c1n.cn/gxvip
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国 2
-      - 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46
-      - 🇺🇲 美国[感谢订阅——科技网络]
-      - _NO_挪威
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2
-      - 🇺🇲 _US_美国 3
-      - _BV_布维岛
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 美国[感谢订阅——科技网络] 2
-      - _BV_布维岛 2
-      - 🇺🇲 _US_美国 7
-      - 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48
-      - 🇺🇲 _US_美国 8
-      - 🇪🇸 _ES_西班牙
-      - 🇺🇲 _US_美国 9
-      - 🇪🇸 _ES_西班牙 2
-      - 🇺🇲 _US_美国 10
-      - 🇺🇲 _US_美国 11
-      - 🇺🇲 _US_美国 12
-      - 🇺🇲 _US_美国 13
-      - _NO_挪威 2
-      - Jsnzk&mffxz节点_679
-      - Jsnzk&mffxz节点_676
-      - 🇺🇲 _US_美国 14
-      - 🇺🇲 _US_美国 15
-      - Jsnzk&mffxz节点_698
-      - 🇺🇲 _US_美国 16
-      - 🇺🇲 _US_美国 17
-      - 🇷🇺 RU_659
-      - Jsnzk&mffxz节点_678
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769
-      - 高速稳定节点购买:https://v1.mk/vip
-      - 🇺🇲 _US_美国 18
-      - 🇪🇸 _ES_西班牙 3
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47
-      - 🇺🇲 _US_美国 19
-      - 🇺🇲 _US_美国 20
-      - Jsnzk&mffxz节点_716
-      - 🇺🇲 WeVPN US 🇺🇸 Los Angeles
-      - 🇺🇲 _US_美国 21
-      - 🇺🇲 _US_美国 22
+      - 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x
+      - 高速节点购买:https://c1n.cn/vip
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x
+      - 高速节点购买:https://c1n.cn/vip 2
+      - 高速节点购买:https://c1n.cn/vip 3
+      - 高速节点购买:https://c1n.cn/vip 4
+      - 高速节点购买:https://c1n.cn/vip 5
+      - 高速节点购买:https://c1n.cn/vip 6
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x
+      - 高速节点购买:https://c1n.cn/vip 7
+      - 高速节点购买:https://c1n.cn/vip 8
+      - 高速节点购买:https://c1n.cn/vip 9
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x
+      - 高速节点购买:https://c1n.cn/vip 10
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1
-      - 高速稳定节点购买:https://c1n.cn/gxvip
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国 2
-      - 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46
-      - 🇺🇲 美国[感谢订阅——科技网络]
-      - _NO_挪威
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2
-      - 🇺🇲 _US_美国 3
-      - _BV_布维岛
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 美国[感谢订阅——科技网络] 2
-      - _BV_布维岛 2
-      - 🇺🇲 _US_美国 7
-      - 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48
-      - 🇺🇲 _US_美国 8
-      - 🇪🇸 _ES_西班牙
-      - 🇺🇲 _US_美国 9
-      - 🇪🇸 _ES_西班牙 2
-      - 🇺🇲 _US_美国 10
-      - 🇺🇲 _US_美国 11
-      - 🇺🇲 _US_美国 12
-      - 🇺🇲 _US_美国 13
-      - _NO_挪威 2
-      - Jsnzk&mffxz节点_679
-      - Jsnzk&mffxz节点_676
-      - 🇺🇲 _US_美国 14
-      - 🇺🇲 _US_美国 15
-      - Jsnzk&mffxz节点_698
-      - 🇺🇲 _US_美国 16
-      - 🇺🇲 _US_美国 17
-      - 🇷🇺 RU_659
-      - Jsnzk&mffxz节点_678
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769
-      - 高速稳定节点购买:https://v1.mk/vip
-      - 🇺🇲 _US_美国 18
-      - 🇪🇸 _ES_西班牙 3
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47
-      - 🇺🇲 _US_美国 19
-      - 🇺🇲 _US_美国 20
-      - Jsnzk&mffxz节点_716
-      - 🇺🇲 WeVPN US 🇺🇸 Los Angeles
-      - 🇺🇲 _US_美国 21
-      - 🇺🇲 _US_美国 22
+      - 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x
+      - 高速节点购买:https://c1n.cn/vip
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x
+      - 高速节点购买:https://c1n.cn/vip 2
+      - 高速节点购买:https://c1n.cn/vip 3
+      - 高速节点购买:https://c1n.cn/vip 4
+      - 高速节点购买:https://c1n.cn/vip 5
+      - 高速节点购买:https://c1n.cn/vip 6
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x
+      - 高速节点购买:https://c1n.cn/vip 7
+      - 高速节点购买:https://c1n.cn/vip 8
+      - 高速节点购买:https://c1n.cn/vip 9
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x
+      - 高速节点购买:https://c1n.cn/vip 10
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1
-      - 高速稳定节点购买:https://c1n.cn/gxvip
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国 2
-      - 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46
-      - 🇺🇲 美国[感谢订阅——科技网络]
-      - _NO_挪威
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2
-      - 🇺🇲 _US_美国 3
-      - _BV_布维岛
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 美国[感谢订阅——科技网络] 2
-      - _BV_布维岛 2
-      - 🇺🇲 _US_美国 7
-      - 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48
-      - 🇺🇲 _US_美国 8
-      - 🇪🇸 _ES_西班牙
-      - 🇺🇲 _US_美国 9
-      - 🇪🇸 _ES_西班牙 2
-      - 🇺🇲 _US_美国 10
-      - 🇺🇲 _US_美国 11
-      - 🇺🇲 _US_美国 12
-      - 🇺🇲 _US_美国 13
-      - _NO_挪威 2
-      - Jsnzk&mffxz节点_679
-      - Jsnzk&mffxz节点_676
-      - 🇺🇲 _US_美国 14
-      - 🇺🇲 _US_美国 15
-      - Jsnzk&mffxz节点_698
-      - 🇺🇲 _US_美国 16
-      - 🇺🇲 _US_美国 17
-      - 🇷🇺 RU_659
-      - Jsnzk&mffxz节点_678
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769
-      - 高速稳定节点购买:https://v1.mk/vip
-      - 🇺🇲 _US_美国 18
-      - 🇪🇸 _ES_西班牙 3
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47
-      - 🇺🇲 _US_美国 19
-      - 🇺🇲 _US_美国 20
-      - Jsnzk&mffxz节点_716
-      - 🇺🇲 WeVPN US 🇺🇸 Los Angeles
-      - 🇺🇲 _US_美国 21
-      - 🇺🇲 _US_美国 22
+      - 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x
+      - 高速节点购买:https://c1n.cn/vip
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x
+      - 高速节点购买:https://c1n.cn/vip 2
+      - 高速节点购买:https://c1n.cn/vip 3
+      - 高速节点购买:https://c1n.cn/vip 4
+      - 高速节点购买:https://c1n.cn/vip 5
+      - 高速节点购买:https://c1n.cn/vip 6
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x
+      - 高速节点购买:https://c1n.cn/vip 7
+      - 高速节点购买:https://c1n.cn/vip 8
+      - 高速节点购买:https://c1n.cn/vip 9
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x
+      - 高速节点购买:https://c1n.cn/vip 10
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1
-      - 高速稳定节点购买:https://c1n.cn/gxvip
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国 2
-      - 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46
-      - 🇺🇲 美国[感谢订阅——科技网络]
-      - _NO_挪威
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2
-      - 🇺🇲 _US_美国 3
-      - _BV_布维岛
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 美国[感谢订阅——科技网络] 2
-      - _BV_布维岛 2
-      - 🇺🇲 _US_美国 7
-      - 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48
-      - 🇺🇲 _US_美国 8
-      - 🇪🇸 _ES_西班牙
-      - 🇺🇲 _US_美国 9
-      - 🇪🇸 _ES_西班牙 2
-      - 🇺🇲 _US_美国 10
-      - 🇺🇲 _US_美国 11
-      - 🇺🇲 _US_美国 12
-      - 🇺🇲 _US_美国 13
-      - _NO_挪威 2
-      - Jsnzk&mffxz节点_679
-      - Jsnzk&mffxz节点_676
-      - 🇺🇲 _US_美国 14
-      - 🇺🇲 _US_美国 15
-      - Jsnzk&mffxz节点_698
-      - 🇺🇲 _US_美国 16
-      - 🇺🇲 _US_美国 17
-      - 🇷🇺 RU_659
-      - Jsnzk&mffxz节点_678
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769
-      - 高速稳定节点购买:https://v1.mk/vip
-      - 🇺🇲 _US_美国 18
-      - 🇪🇸 _ES_西班牙 3
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47
-      - 🇺🇲 _US_美国 19
-      - 🇺🇲 _US_美国 20
-      - Jsnzk&mffxz节点_716
-      - 🇺🇲 WeVPN US 🇺🇸 Los Angeles
-      - 🇺🇲 _US_美国 21
-      - 🇺🇲 _US_美国 22
+      - 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x
+      - 高速节点购买:https://c1n.cn/vip
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x
+      - 高速节点购买:https://c1n.cn/vip 2
+      - 高速节点购买:https://c1n.cn/vip 3
+      - 高速节点购买:https://c1n.cn/vip 4
+      - 高速节点购买:https://c1n.cn/vip 5
+      - 高速节点购买:https://c1n.cn/vip 6
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x
+      - 高速节点购买:https://c1n.cn/vip 7
+      - 高速节点购买:https://c1n.cn/vip 8
+      - 高速节点购买:https://c1n.cn/vip 9
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x
+      - 高速节点购买:https://c1n.cn/vip 10
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1
-      - 高速稳定节点购买:https://c1n.cn/gxvip
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国 2
-      - 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46
-      - 🇺🇲 美国[感谢订阅——科技网络]
-      - _NO_挪威
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2
-      - 🇺🇲 _US_美国 3
-      - _BV_布维岛
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 美国[感谢订阅——科技网络] 2
-      - _BV_布维岛 2
-      - 🇺🇲 _US_美国 7
-      - 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48
-      - 🇺🇲 _US_美国 8
-      - 🇪🇸 _ES_西班牙
-      - 🇺🇲 _US_美国 9
-      - 🇪🇸 _ES_西班牙 2
-      - 🇺🇲 _US_美国 10
-      - 🇺🇲 _US_美国 11
-      - 🇺🇲 _US_美国 12
-      - 🇺🇲 _US_美国 13
-      - _NO_挪威 2
-      - Jsnzk&mffxz节点_679
-      - Jsnzk&mffxz节点_676
-      - 🇺🇲 _US_美国 14
-      - 🇺🇲 _US_美国 15
-      - Jsnzk&mffxz节点_698
-      - 🇺🇲 _US_美国 16
-      - 🇺🇲 _US_美国 17
-      - 🇷🇺 RU_659
-      - Jsnzk&mffxz节点_678
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769
-      - 高速稳定节点购买:https://v1.mk/vip
-      - 🇺🇲 _US_美国 18
-      - 🇪🇸 _ES_西班牙 3
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47
-      - 🇺🇲 _US_美国 19
-      - 🇺🇲 _US_美国 20
-      - Jsnzk&mffxz节点_716
-      - 🇺🇲 WeVPN US 🇺🇸 Los Angeles
-      - 🇺🇲 _US_美国 21
-      - 🇺🇲 _US_美国 22
+      - 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x
+      - 高速节点购买:https://c1n.cn/vip
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x
+      - 高速节点购买:https://c1n.cn/vip 2
+      - 高速节点购买:https://c1n.cn/vip 3
+      - 高速节点购买:https://c1n.cn/vip 4
+      - 高速节点购买:https://c1n.cn/vip 5
+      - 高速节点购买:https://c1n.cn/vip 6
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x
+      - 高速节点购买:https://c1n.cn/vip 7
+      - 高速节点购买:https://c1n.cn/vip 8
+      - 高速节点购买:https://c1n.cn/vip 9
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x
+      - 高速节点购买:https://c1n.cn/vip 10
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1
-      - 高速稳定节点购买:https://c1n.cn/gxvip
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国 2
-      - 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46
-      - 🇺🇲 美国[感谢订阅——科技网络]
-      - _NO_挪威
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2
-      - 🇺🇲 _US_美国 3
-      - _BV_布维岛
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 美国[感谢订阅——科技网络] 2
-      - _BV_布维岛 2
-      - 🇺🇲 _US_美国 7
-      - 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48
-      - 🇺🇲 _US_美国 8
-      - 🇪🇸 _ES_西班牙
-      - 🇺🇲 _US_美国 9
-      - 🇪🇸 _ES_西班牙 2
-      - 🇺🇲 _US_美国 10
-      - 🇺🇲 _US_美国 11
-      - 🇺🇲 _US_美国 12
-      - 🇺🇲 _US_美国 13
-      - _NO_挪威 2
-      - Jsnzk&mffxz节点_679
-      - Jsnzk&mffxz节点_676
-      - 🇺🇲 _US_美国 14
-      - 🇺🇲 _US_美国 15
-      - Jsnzk&mffxz节点_698
-      - 🇺🇲 _US_美国 16
-      - 🇺🇲 _US_美国 17
-      - 🇷🇺 RU_659
-      - Jsnzk&mffxz节点_678
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769
-      - 高速稳定节点购买:https://v1.mk/vip
-      - 🇺🇲 _US_美国 18
-      - 🇪🇸 _ES_西班牙 3
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47
-      - 🇺🇲 _US_美国 19
-      - 🇺🇲 _US_美国 20
-      - Jsnzk&mffxz节点_716
-      - 🇺🇲 WeVPN US 🇺🇸 Los Angeles
-      - 🇺🇲 _US_美国 21
-      - 🇺🇲 _US_美国 22
+      - 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x
+      - 高速节点购买:https://c1n.cn/vip
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x
+      - 高速节点购买:https://c1n.cn/vip 2
+      - 高速节点购买:https://c1n.cn/vip 3
+      - 高速节点购买:https://c1n.cn/vip 4
+      - 高速节点购买:https://c1n.cn/vip 5
+      - 高速节点购买:https://c1n.cn/vip 6
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x
+      - 高速节点购买:https://c1n.cn/vip 7
+      - 高速节点购买:https://c1n.cn/vip 8
+      - 高速节点购买:https://c1n.cn/vip 9
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x
+      - 高速节点购买:https://c1n.cn/vip 10
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -429,59 +163,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_31
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_43
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_32
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_1
-      - 高速稳定节点购买:https://c1n.cn/gxvip
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_9
-      - 【小汐搬运12】13W+用户覆盖，节点名称广告转化
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_45
-      - 【小汐搬运15】13W+用户覆盖，节点名称广告转化
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国 2
-      - 🇩🇪 CA_https://t.me/+P48DEofZ1_w4NTUx_46
-      - 🇺🇲 美国[感谢订阅——科技网络]
-      - _NO_挪威
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_2
-      - 🇺🇲 _US_美国 3
-      - _BV_布维岛
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 美国[感谢订阅——科技网络] 2
-      - _BV_布维岛 2
-      - 🇺🇲 _US_美国 7
-      - 🇩🇪 SG_https://t.me/+P48DEofZ1_w4NTUx_48
-      - 🇺🇲 _US_美国 8
-      - 🇪🇸 _ES_西班牙
-      - 🇺🇲 _US_美国 9
-      - 🇪🇸 _ES_西班牙 2
-      - 🇺🇲 _US_美国 10
-      - 🇺🇲 _US_美国 11
-      - 🇺🇲 _US_美国 12
-      - 🇺🇲 _US_美国 13
-      - _NO_挪威 2
-      - Jsnzk&mffxz节点_679
-      - Jsnzk&mffxz节点_676
-      - 🇺🇲 _US_美国 14
-      - 🇺🇲 _US_美国 15
-      - Jsnzk&mffxz节点_698
-      - 🇺🇲 _US_美国 16
-      - 🇺🇲 _US_美国 17
-      - 🇷🇺 RU_659
-      - Jsnzk&mffxz节点_678
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1769
-      - 高速稳定节点购买:https://v1.mk/vip
-      - 🇺🇲 _US_美国 18
-      - 🇪🇸 _ES_西班牙 3
-      - 🇩🇪 CN_https://t.me/+P48DEofZ1_w4NTUx_47
-      - 🇺🇲 _US_美国 19
-      - 🇺🇲 _US_美国 20
-      - Jsnzk&mffxz节点_716
-      - 🇺🇲 WeVPN US 🇺🇸 Los Angeles
-      - 🇺🇲 _US_美国 21
-      - 🇺🇲 _US_美国 22
+      - 🇯🇵 【新鸟免费】日本JP-AWS 04-1.0x
+      - 高速节点购买:https://c1n.cn/vip
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 02-1.0x
+      - 高速节点购买:https://c1n.cn/vip 2
+      - 高速节点购买:https://c1n.cn/vip 3
+      - 高速节点购买:https://c1n.cn/vip 4
+      - 高速节点购买:https://c1n.cn/vip 5
+      - 高速节点购买:https://c1n.cn/vip 6
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08-1.0x
+      - 高速节点购买:https://c1n.cn/vip 7
+      - 高速节点购买:https://c1n.cn/vip 8
+      - 高速节点购买:https://c1n.cn/vip 9
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 10-1.0x
+      - 高速节点购买:https://c1n.cn/vip 10
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08-1.0x
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
