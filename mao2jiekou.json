@@ -1,4 +1,3 @@
-###
 {
   "sites": [
             {
@@ -858,7 +857,7 @@
     "wasu",
     "bilibili"
   ],
-  "spider": "http://www.pandown.pro/custom_spider.jar",
+  "spider": "https://gitee.com/luobenji/luobenji/raw/master/custom_spider.jar",
   "parses": [
     {
       "name": "暮光解析",
